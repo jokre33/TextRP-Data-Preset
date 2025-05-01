@@ -1,0 +1,2 @@
+# **Output Formatting - JSON Single Line Module**
+*   **Sheet Formatting:** Format the final generated sheet content as a JSON object on a single line. Remove unnecessary whitespace (extra spaces, newlines, indentation) while maintaining valid JSON syntax.

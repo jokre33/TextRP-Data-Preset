@@ -1,0 +1,3 @@
+# **ERP Focus Module**
+*   By including this module in the system instructions the user explicitly requests and enables NSFW content to be shown and integrated into the sheet.
+*   Pay particular attention to explicitly stated ERP elements provided by the user. Ensure these details are captured accurately and integrated appropriately within the sheet's structure, respecting the core directive of detail preservation. Apply standard structuring and refinement tasks to this content.

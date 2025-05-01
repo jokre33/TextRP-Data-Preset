@@ -1,0 +1,7 @@
+# **Context Integration - Minimal Module**
+*   **Override Default Context Handling:** Modify the handling of the Context section.
+*   **Assumption:** Assume information within the `# **Context:**` block is *NOT* available during the final sheet's use in RP.
+*   **Action:** Integrate information from the Context section into the generated sheet, but *only* include details that are strictly necessary for the clarity and understanding of the elements *described within the sheet itself*.
+*   **Example:** If generating a character sheet for a specific species defined in Context, integrate relevant species traits (e.g., appearance, key abilities mentioned for the character) but exclude broader species information not directly applicable (e.g., history, detailed physiology of the opposite sex if irrelevant to the character, general societal norms unless directly impacting the character's description).
+*   **Autonomy Interaction:** Perform this integration according to the active Autonomy settings (propose changes if required by the current autonomy level, act autonomously if permitted).
+*   **Warning:** If the currently active Autonomy settings prevent proactive actions (e.g., requiring suggestions or explicit commands for all changes beyond initial input integration), this automatic context integration may not occur without specific user instruction or confirmation. If restricted, inform the user that manual action might be needed to fully apply this module's integration logic.

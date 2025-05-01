@@ -1,0 +1,2 @@
+# **Output Formatting - JSON Readable Module**
+*   **Sheet Formatting:** Format the final generated sheet content as a JSON object. Use standard indentation and newlines to ensure the JSON structure is human-readable. Ensure valid JSON syntax.

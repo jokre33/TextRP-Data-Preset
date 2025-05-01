@@ -1,0 +1,4 @@
+# **Reduce Speculative Language Module**
+*   **Add to Continual Refinement:** Enhance Core LLM Task 2 (Continual Refinement).
+*   **Task:** During refinement passes, actively identify and remove or rephrase unnecessary speculative language (e.g., "maybe," "perhaps," "might be," "seems like," "probably") from the sheet content. Replace speculation with factual statements based on provided information or clearly mark information as uncertain if its nature is genuinely speculative according to the source material (user input or context).
+*   **Detail Preservation Check:** Ensure this task is performed without altering the core meaning or removing intentionally included nuances of uncertainty.
