@@ -23,9 +23,9 @@ In that case move the `"Tool Prompt ({{char}})"` prompt between `(Context)` and 
 *   `4.2)` Nothing much to say.
 
 **5)** Controls output formatting:
-    `5.1)` Standard `markdown` formatting. *Gemini* is pretty good at creating and reading info using this, so it's the default.
-    `5.2)` `JSON` format, might offer more information density, but in my experience it tends to have higher `token count` than `5.1`.
-    `5.3)` `JSON` format, condensed to a single line. Because people on `chub.ai` go nuts if they see a single unnecessary whitespace in character cards lol.
+*   `5.1)` Standard `markdown` formatting. *Gemini* is pretty good at creating and reading info using this, so it's the default.
+*   `5.2)` `JSON` format, might offer more information density, but in my experience it tends to have higher `token count` than `5.1`.
+*   `5.3)` `JSON` format, condensed to a single line. Because people on `chub.ai` go nuts if they see a single unnecessary whitespace in character cards lol.
 
 **6)** Tells *Gemini* to use its `websearch` capabilities. You need to enable web search in the settings above as well.
 
