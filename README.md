@@ -8,19 +8,19 @@ In that case move the `"Tool Prompt ({{char}})"` prompt between `(Context)` and 
 **1)** Explicitly enables the integration of `NSFW/ERP Info` into your sheets. *Gemini* sometimes excludes ERP specific info without it.
 
 **2)** Controls how much *Gemini* should do on its own:
-    `2.1)` Gives full control over everything not explicitly stated by you to *Gemini*. This includes integration of info from `3.x` modules and suggested info from module `8`.
-    `2.2)` Gives partial control over formatting, structure, etc to *Gemini*. Larger scale changes and integration for `3.x` and `8` changes will be suggested and need approval.
-    `2.3)` All post first pass changes will be suggested instead of directly implemented, including minor wording/grammatical changes.
-    `2.4)` Completely disables autonomous changes and suggestions apart from the first pass processing of input. (Disables `3.x` and `8` unless explicitly directed by you)
+*   `2.1)` Gives full control over everything not explicitly stated by you to *Gemini*. This includes integration of info from `3.x` modules and suggested info from module `8`.
+*   `2.2)` Gives partial control over formatting, structure, etc to *Gemini*. Larger scale changes and integration for `3.x` and `8` changes will be suggested and need approval.
+*   `2.3)` All post first pass changes will be suggested instead of directly implemented, including minor wording/grammatical changes.
+*   `2.4)` Completely disables autonomous changes and suggestions apart from the first pass processing of input. (Disables `3.x` and `8` unless explicitly directed by you)
 
 **3)** Controls the level of information that should be taken from `Lore Books` and integrated into the sheet.
-    `3.1)` Assumes the `Lore Book` will be active when the sheet is used and does not directly integrate any information, instead only referencing it.
-    `3.2)` Assumes the `Lore Book` will NOT be active when the sheet is used. It integrates the minimum information needed for the sheet to make sense.
-    `3.3)` Same as `3.2`, but integrates a broader context. Be careful when using this, it may add bloat you need to manually cull.
+*   `3.1)` Assumes the `Lore Book` will be active when the sheet is used and does not directly integrate any information, instead only referencing it.
+*   `3.2)` Assumes the `Lore Book` will NOT be active when the sheet is used. It integrates the minimum information needed for the sheet to make sense.
+*   `3.3)` Same as `3.2`, but integrates a broader context. Be careful when using this, it may add bloat you need to manually cull.
 
 **4)** Pretty self explanatory. Do you want to see only changed sections of the sheet or the full thing with every response?
-    `4.1)` **WARNING:** This may quickly balloon `token count`.
-    `4.2)` Nothing much to say.
+*   `4.1)` **WARNING:** This may quickly balloon `token count`.
+*   `4.2)` Nothing much to say.
 
 **5)** Controls output formatting:
     `5.1)` Standard `markdown` formatting. *Gemini* is pretty good at creating and reading info using this, so it's the default.
