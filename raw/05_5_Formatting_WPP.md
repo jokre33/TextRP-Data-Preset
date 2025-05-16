@@ -37,7 +37,7 @@ The entire character sheet is enclosed in a single pair of square brackets `[` .
 
 1.  **Flexibility in Attribute Choice:**
     *   The specific `AttributeName`s used in a character sheet are NOT fixed or universally mandatory.
-    *   The generating LLM should select and include attributes that are relevant and for which meaningful information exists for the character being described. A character sheet could validly consist of just `[character("Name")`, `{`, `Age("25"+"Twenty-five years old")`, `Height("180cm")`, `}]` if that's all the relevant specified information.
+    *   The generating LLM should select and include attributes that are relevant and for which meaningful information exists for the character being described. A character sheet could validly consist of just `[character("Name")`, `{`, `Age("25")`, `Height("180cm")`, `}]` if that's all the relevant specified information.
     *   **Prioritize attributes that convey essential information for understanding and role-playing the character.**
 
 2.  **Handling Missing or Unspecified Information:**
@@ -63,7 +63,7 @@ The following are examples of attribute fields that are generally useful for cha
     *   **Example:** `Species("Human"+"Cat")`
 
 *   **`Age("Numeric age"+"Descriptive age")`**
-    *   **Content:** Numeric (`"19"`) and descriptive (`"19 years old"`) age.
+    *   **Content:** Numeric (`"19"`) and if provided descriptive (`"19 years old"`) age.
     *   **Example:** `Age("19"+"19 years old")`
 
 *   **`Features("Feature 1"+"Feature 2"+...)`**
